@@ -1,10 +1,5 @@
-import { Button } from "~/shared/ui"
+import { HomePage } from "~/pages"
 
 export default function Home() {
-	return (
-		<main>
-			<h1>HELLO THERE</h1>
-			<Button>Click me</Button>
-		</main>
-	)
+	return <HomePage />
 }

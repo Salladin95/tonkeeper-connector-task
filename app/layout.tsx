@@ -1,6 +1,9 @@
+import React from "react"
 import type { Metadata } from "next"
 import localFont from "next/font/local"
 import { Inter, Noto_Sans } from "next/font/google"
+
+import { Providers } from "./providers"
 
 import "./globals.css"
 
@@ -33,8 +36,9 @@ export default function RootLayout({
 		<html lang="en">
 			<body
 				className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} ${notoSans.variable} antialiased`}
+				suppressHydrationWarning={true}
 			>
-				{children}
+				<Providers>{children}</Providers>
 			</body>
 		</html>
 	)

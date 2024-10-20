@@ -1,0 +1,7 @@
+{
+  "name": "My React App",
+  "url": "http://localhost:3000",
+  "iconUrl": "http://localhost:3000/favicon.ico",
+  "termsOfUseUrl": "http://localhost:3000/terms",
+  "privacyPolicyUrl": "http://localhost:3000/privacy"
+}
